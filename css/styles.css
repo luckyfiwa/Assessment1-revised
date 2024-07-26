@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(13, 13, 13);
+}
+.container{
+  display: flex;
+  flex-direction: row;
+}
+.header{
+  height: 3rem;
+  background-color: #21aaeee1;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.content{
+  margin-left: 30vh;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+.content{
+  margin-left: 30vh;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+.sidebar{
+  position: fixed;
+  height: 100vh;
+  width: 30vh;
+  background-color: rgb(240, 242, 245);
+}
+.sidebar a{
+  color: rgb(13, 13, 13);
+  display: block;
+  text-decoration: none;
+  padding: 0.8rem 0;
+  padding-left: 1.5rem;
+ 
+}
+.sidebar a:hover{
+  background-color: #d4ecf8;
+} 
